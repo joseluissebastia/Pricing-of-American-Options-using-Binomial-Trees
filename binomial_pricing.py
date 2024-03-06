@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
-from pprint import pprint
 
 class AmericanOption():
     def __init__(self, option_type, S0, K, T, volatility, risk_free_rate, dividends=None):
